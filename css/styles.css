@@ -12,6 +12,13 @@ nav {
   background-color: #e6fff3;
 }
 
+img {
+  margin-left: 5px;
+  border: solid 8px darkgray;
+  height: auto;
+  width: 40%;
+}
+
 
 .turtle {
   display: none;

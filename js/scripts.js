@@ -3,15 +3,18 @@ $(document).ready(function(){
     event.preventDefault();
     var selection = $('#animal-type').val();
 
-console.log(selection);
-  // $(".output").text(selection);
-
   if (selection === "Turtles") {
         $(".turtle").show();
+        $(".snake").hide();
+        $(".insect").hide();
       } else if (selection === "Snakes"){
         $(".snake").show();
+        $(".turtle").hide();
+        $(".insect").hide();
       } else {
         $(".insect").show();
+        $(".turtle").hide();
+        $(".snake").hide();
       }
 
 
