@@ -1,0 +1,26 @@
+body {
+  background-color: #b3ecff;
+}
+
+header {
+  text-align: center;
+  background-color: #e6ccff;
+}
+
+nav {
+  text-align: center;
+  background-color: #e6fff3;
+}
+
+
+.turtle {
+  display: none;
+}
+
+.snake {
+  display: none;
+}
+
+.insect {
+  display: none;
+}

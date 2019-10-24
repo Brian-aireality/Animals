@@ -19,14 +19,15 @@
         <a href="https://www.natgeokids.com/za/discover/animals/sea-life/turtle-facts/">National Geographic Kids Website</a><br>
         <a href="http://www.sciencekids.co.nz/sciencefacts/animals/snake.html">Science Kids Website</a>
       </nav>
-      <form class="form" action="index.html" method="post">
+      <form id="animals" action="index.html" method="post">
 
         <p>What kind of animal would you like to learn about?</p>
         <select class="form-control" id="animal-type">
-          <option>Turtles</option>
-          <option>Snakes</option>
-          <option>Insects</option>
+          <option id="turtle-opt">Turtles</option>
+          <option id="snake-opt">Snakes</option>
+          <option id="insect-opt">Insects</option>
         </select>
+        <button type="submit" name="button">Click here!</button>
 
         <div class="turtle">
         <h3>Turtles</h3>
@@ -66,7 +67,11 @@
 
 
 
-        <div class="">
+        <div class="output">
+
+          <p>Here's an introduction to your animal!</p>
+          <br>
+          <span id="basic-info"></span>
 
         </div>
 
