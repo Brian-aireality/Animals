@@ -31,3 +31,8 @@ img {
 .insect {
   display: none;
 }
+
+#park {
+  margin-top: 100px;
+  background-color: lightyellow;
+}
